@@ -486,9 +486,10 @@ require('lazy').setup({
         'mason-org/mason.nvim',
         opts = {
           registries = {
+            'github:mason-org/mason-registry',
             -- Dotnet support: https://github.com/seblyng/roslyn.nvim?tab=readme-ov-file#-installation
-            -- 'github:mason-org/mason-registry',
-            -- 'github:Crashdummyy/mason-registry',
+            'github:mason-org/mason-registry',
+            'github:Crashdummyy/mason-registry',
           },
         },
       },
