@@ -209,6 +209,8 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- set shift-tab to remove the tabbing
 vim.keymap.set('i', '<S-Tab>', '<C-d>')
+-- set ctrl-backspace to delete the last word - DOESN'T WORK, because the terminal doesn't send this command to vim?
+vim.keymap.set('i', '<C-BS>', '<C-w>')
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
